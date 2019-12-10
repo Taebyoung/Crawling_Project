@@ -10,7 +10,7 @@ class ComicsSpider(scrapy.Spider):
         }
     }
     
-    def __init__(self, pages=10, **kwargs):
+    def __init__(self, pages=1, **kwargs):
         self.start_url = "https://gall.dcinside.com/board/lists/?id=comic_new2&page={}&exception_mode=recommend".format(pages)
         super().__init__(**kwargs)
         

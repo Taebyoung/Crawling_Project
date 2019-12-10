@@ -18,9 +18,12 @@ pip install pymongo
 ```
 
 ### 사용법
+
 - 개인 사용자
-  -
+  - csv 파일 생성 명령어
 - AWS 및 DB 사용자
+  - 몽고 DB 세팅 안내
+  - 몽고 DB IP 등록법
 
 
 ### 제공 DB 예시

@@ -4,7 +4,7 @@
 > 만갤의 번역 만화 리스트로 만들기
 
 
-###Requierments
+### Requierments
 ---
 
 ```

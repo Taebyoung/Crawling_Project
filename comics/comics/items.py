@@ -9,7 +9,7 @@ import scrapy
 
 class ComicsItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
+    # mongo-db
     title = scrapy.Field()
     date = scrapy.Field()
     views = scrapy.Field()
@@ -17,3 +17,7 @@ class ComicsItem(scrapy.Item):
     link = scrapy.Field()
     img_count = scrapy.Field()
     img_link = scrapy.Field()
+    
+    # downloads
+    image_urls = scrapy.Field()
+    images = scrapy.Field()

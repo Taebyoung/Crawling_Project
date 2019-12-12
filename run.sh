@@ -1,1 +1,2 @@
-scrapy crawl Comics -o dc_comics_191211.csv -a page=25
+cd ./comics
+scrapy crawl Comics -a page=1

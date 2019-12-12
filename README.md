@@ -1,5 +1,5 @@
-# DC만갤 다운로더(beta)
----
+# DC만갤 다운로더 (beta)
+--
 
 > 주의 : 해당 프로그램의 이용은 한국 저작권법 또는 일본 저작권법에 의해 처벌 대상이 될 수 있습니다.
 
@@ -11,7 +11,7 @@ DC만갤에는 아직 국내에 정식 출간되지 않은 만화책을 번역�
 
 
 ## Requierments
----
+-
 
 ```
 pip install scrapy
@@ -25,7 +25,7 @@ pip install pymongo
 ```
 
 ## 사용법
----
+-
 - 개념글 이미지 다운로드 (/comics)
 `$ scrapy crawl Comics -a PAGE_NUM (default=1)`
 혹은
@@ -45,10 +45,11 @@ pip install pymongo
     1. `scrapy crawl Comincs -a PAGE_NUM`
 
 ## Examples
----
+-
 
 
 ### 크롤링 제공 데이터
+-
 - title : 게시글 제목
 - date : 날짜 (년
 - views : 조회수 (크롤링 시점)
@@ -61,12 +62,14 @@ pip install pymongo
 
 
 ### 프로그램 사용 주의사항
+-
 - 과도한 크롤링 금지 (1회 25 페이지 이상)
   - 해당 프로그램의 과도한 사용은 dcinside의 운영 정책에 따라 IP가 차단될 수 있습니다.
 - 일부 이미지 파일 다운로드 불가
   - DCinside 내부 업로드 자료의 경우 다운로드가 현재 불가능합니다.
 
-
+## UPDATE PLAN
+-
 ### BUG FIX
 1. 다운로드 이미지 파일 이름 추가
 2. DCinside 내부 저장소 사용 이미지 파일 다운로드
